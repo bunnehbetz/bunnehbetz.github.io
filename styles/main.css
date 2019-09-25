@@ -1,0 +1,95 @@
+/*
+Colours:
+  white: rgba(255,255,255,1.0)
+  black: rgba(0,0,0,1.0)
+  gray: rgba(128,128,128,1.0)
+  cherise: rgba(222,49,99,1.0)
+*/
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: 100%;
+  background-color: rgba(0,0,0,1.0);
+  color: rgba(255,255,255,1.0);
+  font-family: 'Gafata';
+  font-size: 22px;
+  margin: 0;
+  text-align:center;
+}
+
+.navigation ul {
+    background-color: rgba(0,0,0,1.0);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a {
+    display: block;
+    color: rgba(255,255,255,1.0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: rgba(222,49,99,1.0);
+}
+
+.currentpage {
+    border-bottom: 5px solid rgba(222,49,99,1.0);
+    color: rgba(222,49,99,1.0);
+}
+
+#home, #abouttable {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.column50 {
+    width: 50%;
+}
+
+#icon a img{
+    max-height: 50px;
+    max-width: 50px;
+    filter: invert(100%);
+}
+
+#icon a img:hover {
+  filter: invert(29%) sepia(100%) saturate(2917%) hue-rotate(326deg) brightness(91%) contrast(90%);
+}
+
+#aboutme {
+    margin: 2% 4%;
+    padding: 1% 2%;
+    border: 5px solid rgba(255,255,255,1.0);
+    background-color: rgba(0,0,0,0.75);
+}
+
+#descriptionaboutme {
+    text-align: left;
+    padding: 1% 2%;
+}
+
+#experience {
+    margin: 2% 4%;
+    padding: 1% 2%;
+    border: 5px solid rgba(255,255,255,1.0);
+    background-color: rgba(0,0,0,0.75);
+    text-align: left;
+}
+
+#skillsgrid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
